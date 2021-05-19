@@ -1,0 +1,285 @@
+
+/* TRABAJOS 2 */
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background: white;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+h1 {
+    color: whitesmoke;
+    text-align: center;
+
+}
+
+.galeria {
+    width: 90%;
+    margin: auto;
+    list-style: none;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    box-shadow: 7px 13px 37px #000;
+}
+
+.galeria:target {
+    visibility: visible
+    opacity: 0.1;
+    position: fixed;
+    background: rgba(0, 0, 0, 8) ;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.galeria li {
+    margin: 5px;
+}
+
+.galeria img {
+    width: 300px;
+    height: 300px;
+}
+
+
+/* Estilos del modal */
+
+
+.modal {
+    display: none;
+}
+
+
+.modal:target {
+    transition: all 2s;
+    display: block;
+    position: fixed;
+    background: rgba(0, 0, 0, 8) ;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.modal h3 {
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    margin: 15px 0;
+}
+
+
+
+.imagen {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagen .a:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: transform 2s;
+}
+
+
+.imagen a {
+    color: white;
+    font-size: 300%;
+    text-decoration: none;
+    margin: 0 0px;
+}
+
+.imagen a:nth-child(2) {
+    margin: 0;
+    height: 100%;
+    flex-shrink: 2;
+}
+
+.imagen img {
+    position: relative;
+    max-width: 100%;
+    border: 7px solid #fff;
+    box-sizing: border-box;
+}
+
+
+
+@media screen and (max-width:400px) {
+    .imagen img {
+        color: black;
+        width: 300px;
+        height: 300px;
+        border: 0.5px solid black;
+        margin: auto;
+    }
+}
+
+
+
+@media screen and (min-width:400px) and (max-width:480px) {
+    .imagen img {
+        color: black;
+        width: 390px;
+        height: 390px;
+        border: 0.5px solid black;
+        margin: auto;
+    }
+}
+
+
+
+@media screen and (min-width:480px) and (max-width:720px)  {
+    .imagen img {
+        color: black;
+        width: 470px;
+        height: 470px;
+        border: 0.5px solid black;
+        margin: auto;
+    }
+}
+
+
+@media screen and (min-width:720px) and (max-width:1000px)  {
+    .imagen img {
+        color: black;
+        width: 710px;
+        height: 710px;
+        border: 0.5px solid black;
+        margin: auto;
+    }
+}
+
+@media screen and (min-width:1000px)  {
+    .imagen img {
+        color: black;
+        width: 990px;
+        height: 990px;
+        border: 0.5px solid black;
+        margin: auto;
+    }
+}
+
+
+
+
+
+.cerrar {
+    display: block;
+    background: #fff;
+    width: 25px;
+    height: 25px;
+    margin: 50% auto;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    color: #000;
+    padding: 1%;
+    border-radius: 50%;
+    line-height: 25px;
+}
+
+
+@media screen and (max-width:400px) {
+    .cerrar {
+
+    }
+}
+
+
+
+@media screen and (min-width:400px) and (max-width:480px) {
+    .cerrar {
+
+    }
+}
+
+
+
+@media screen and (min-width:480px) and (max-width:720px)  {
+    .cerrar {
+ 
+    }
+}
+
+
+@media screen and (min-width:720px) and (max-width:1000px)  {
+    .cerrar {
+  
+    }
+}
+
+@media screen and (min-width:1000px)  {
+    .cerrar {
+
+    }
+}
+
+
+
+a {
+    font-family: 'Arial', Times, serif;
+
+}
+
+ 
+/* slider automatico */
+
+.slider {
+    width: 95%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slider ul {
+    display: flex;
+    padding: 0;
+    width: 100%;
+
+    animation: cambio 20s infinite linear;
+
+}
+
+
+.slider li {
+    width: 100%;
+    list-style: none;
+
+}
+
+.slider img {
+    width: 100%;
+}
+
+@keyframes cambio {
+    0% { margin-left: 0; }
+    20% { margin-left: 0; }
+    
+    25% { margin-left: -100% ; }
+    45% { margin-left; -100% ; }
+
+    50% { margin-left: -200% ; }
+    70% { margin-left: -200% ; }
+
+    75% { margin-left: -300% ; }
+    100% { margin-left: -300% ; }
+
+}

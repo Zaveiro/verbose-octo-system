@@ -1,0 +1,263 @@
+
+
+
+
+*{
+    margin: 0;
+    color: white;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times new roman' 'serif';
+}
+
+
+
+/* SOLICITAR TURNO */
+
+
+body {
+    background-image: url('fondo.jpg');
+    background-size: cover;
+}
+
+.form-register {
+    width: 400px;
+    background: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+    opacity: 0.8;
+}
+
+@media screen and (max-width:400px) {
+    .form-register {
+        color: black;
+        width: 280px;
+        height: 600px;
+        border: 0.5px solid black;
+        margin: auto;
+    }
+}
+
+
+
+@media screen and (min-width:400px) and (max-width:480px) {
+    .form-register {
+        color: black;
+        width: 280px;
+        height: 600px;
+        border: 0.5px solid black;
+        margin: auto;
+    }
+}
+
+
+
+@media screen and (min-width:480px) and (max-width:720px)  {
+    .form-register {
+        color: black;
+        width: 390px;
+        height: 600px;
+        border: 0.5px solid black;
+        margin: auto;
+    }
+}
+
+
+@media screen and (min-width:720px) and (max-width:1000px)  {
+    .form-register {
+        color: black;
+        width: 390px;
+        height: 600px;
+        border: 0.5px solid black;
+        margin: auto;
+    }
+}
+
+@media screen and (min-width:1000px)  {
+    .form-register {
+        color: black;
+        width: 390px;
+        height: 600px;
+        border: 0.5px solid black;
+        margin: auto;
+    }
+}
+
+
+.form-register h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.controls {
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid aqua;
+    font-family: 'calibri';
+    font-size: 18px;
+}
+
+.form-register p {
+    height: 40px;
+    text-align: center;
+    font-size: 15px;
+    line-height: 40px;
+}
+
+.form-register a {
+    color: white;
+    text-decoration: none;
+}
+
+.form-register a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.form-register .botons {
+    width: 100%;
+    background: aqua;
+    border: none;
+    padding: 10px;
+    margin: 30px 0;
+    font-size: 16px;
+}
+
+
+
+/* UBICACION */
+
+
+.ubicacion {
+    background: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+    opacity: 0.95;
+}
+
+
+@media screen and (max-width:400px) {
+    .ubicacion {
+        width: 300px;
+        height: 300px;
+        border: 0.5px solid black;
+        margin: auto;
+    }
+}
+
+
+
+@media screen and (min-width:400px) and (max-width:480px) {
+    .ubicacion {
+        width: 390px;
+        height: 390px;
+        border: 0.5px solid black;
+        margin: auto;
+    }
+}
+
+
+
+@media screen and (min-width:480px) and (max-width:720px)  {
+    .ubicacion {
+        width: 470px;
+        height: 470px;
+        border: 0.5px solid black;
+        margin: auto;
+    }
+}
+
+
+@media screen and (min-width:720px) and (max-width:1000px)  {
+    .ubicacion {
+        width: 710px;
+        height: 710px;
+        border: 0.5px solid black;
+        margin: auto;
+    }
+}
+
+@media screen and (min-width:1000px)  {
+    .ubicacion {
+        width: 710px;
+        height: 710px;
+        border: 0.5px solid black;
+        margin: auto;
+    }
+}
+
+
+
+.maps {
+    
+    
+}
+
+
+
+@media screen and (max-width:400px) {
+    .maps {
+        color: black;
+        width: 240px;
+        height: 210px;
+        border: 0.5px solid black;
+        margin: auto;
+    }
+}
+
+
+
+@media screen and (min-width:400px) and (max-width:480px) {
+    .maps {
+        color: black;
+        width: 330px;
+        height: 290px;
+        border: 0.5px solid black;
+        margin: auto;
+    }
+}
+
+
+
+@media screen and (min-width:480px) and (max-width:720px)  {
+    .maps {
+        color: black;
+        width: 410px;
+        height: 380px;
+        border: 0.5px solid black;
+        margin: auto;
+    }
+}
+
+
+@media screen and (min-width:720px) and (max-width:1000px)  {
+    .maps {
+        color: black;
+        width: 650px;
+        height: 620px;
+        border: 0.5px solid black;
+        margin: auto;
+    }
+}
+
+@media screen and (min-width:1000px)  {
+    .maps {
+        color: black;
+        width: 650px;
+        height: 620px;
+        border: 0.5px solid black;
+        margin: auto;
+    }
+}
+
